@@ -1,5 +1,6 @@
 /* Reset */
-
+/* Hintergrund  rbg: 242, 242, 242
+   Hintergrund Artikel: 228,228,228*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -1404,16 +1405,16 @@ body.is-loading #header .content .inner {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
+    background-color: rgb(228, 228, 228);
     border-radius: 4px;
     opacity: 0;
 }
 
 #main article.active {
-    -moz-transform: translateY(0);
+/*    -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
-    transform: translateY(0);
+    transform: translateY(0);*/
     opacity: 1;
 }
 
@@ -1431,11 +1432,8 @@ body.is-loading #header .content .inner {
 }
 
 #main article .close:before {
-    -moz-transition: background-color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out;
     content: '';
+    
     display: block;
     position: absolute;
     top: 0.75rem;
@@ -1444,18 +1442,20 @@ body.is-loading #header .content .inner {
     height: 2.5rem;
     border-radius: 100%;
     background-position: center;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
-    background-size: 20px 20px;
+    background-image: url("../../images/logo.png");
+    
+    background-size: 30px 30px;
     background-repeat: no-repeat;
 }
 
-#main article .close:hover:before {
+/*Damit würde wenn man mit der Maus übere das X fährt, ein  runder Kreis als Hintergrund angezeigt werden*/
+/*#main article .close:hover:before {
     background-color: rgba(255, 255, 255, 0.075);
 }
 
 #main article .close:active:before {
     background-color: rgba(255, 255, 255, 0.175);
-}
+}*/
 
 @media screen and (max-width: 736px) {
 
