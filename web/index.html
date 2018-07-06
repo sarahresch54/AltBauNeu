@@ -80,7 +80,7 @@
                 <!-- Contact -->
                 <article id="contact">
                     <h2 class="major">Kontakt</h2>
-                    <form method="post" action="#">
+                    <form method="post" action="form-to-email.php">
                         <div class="field half first">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="name" />
@@ -97,70 +97,84 @@
                             <li><input type="submit" value="Anfrage senden" class="special" /></li>
                             <li><input type="reset" value="Zurücksetzen" /></li>
                         </ul>
+                        <br>
+                        <p>Sie können uns auch telefonisch unter +43 664 552 73 14 oder per Mail über office@altbauneu.net erreichen.</p>
                     </form>
-                  <!--  <ul class="icons">
-                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                    </ul>-->
+                    <!--  <ul class="icons">
+                          <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                          <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                          <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                      </ul>-->
+                </article>
+                <article id="impressum">
+                    <h2 class="major">Impressum</h2>
+
+                    <table>
+                        <tr>
+                            <th>Daten zum Unternehmen</th>
+                        </tr>
+                        <tr>
+                            <td>Firmenname:</td>
+                            <td>ALTbauNEU RS GmbH</td>
+                        </tr>
+                        <tr>
+                            <td>Kontaktdaten:</td>
+                            <td>+43664 552 73 14</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>office@altbauneu.net</td>
+                        </tr>
+                        <tr>
+                            <td>Firmenbuchnummer:</td>
+                            <td>ATU73341779</td>
+                        </tr>
+                        <tr>
+                            <td>Firmengericht:</td>
+                            <td>Landesgericht für ZRS Graz</td>
+                        </tr>
+                        <tr>
+                            <td>Behörde gem. ECG:</td>
+                            <td>Bezirkshauptmannschaft Deutschlandsberg</td>
+                        </tr>           
+                    </table> 
+                    
+                    <table>
+                        <tr>
+                            <th>Offenlegung gem. §25 Mediengesetz</th>
+                        </tr>
+                        <tr>
+                            <td>Firmensitz:</td>
+                            <td>Sierling 59 | 8510 Stainz</td>
+                        </tr>
+                        <tr>
+                            <td>Geschäftsführer:</td>
+                            <td>BM Ing. Sandro Schönberger</td>
+                        </tr>
+                    </table> 
+
+                  
+                    <p><b>Mitglied der Wirtschaftskammer Steiermark</b>
+                    <br><i>Fachgruppe/Berufszweig</i><br>Landesinnung Bau / Baumeister</p>
+                    <p>Etwaige spezielle berufsrechtliche Vorschriften finden Sie auf der Website der Fachgruppe bzw. im <u><a href="https://www.ris.bka.gv.at">Rechtsinformationssystem des Bundes</a></u></p>
+                    <p>Meisterprüfung abgelegt in Österreich</p>
+                    <table>   
+                        <tr>
+                            <td>Gewerbebehörde:</td>
+                            <td>Bezirkshauptmannschaft Deutschlandsberg</td>
+                        </tr>                       
+                    </table>                    
+                    
+                    <br>
+                    <p><b>Disclaimer</b></p>
+                    <p>Alle Links innerhalb dieser Internetpräsenz sind als Empfehlung zu werten, außer wenn anders angeführt. Da es uns nicht möglich ist ständig die Inhalte der gelinkten Websites zu überprüfen, möchten wir darauf hinweisen, dass sich diese ohne unser Wissens ändern können. Wir übernehmen keinerlei Haftung für die Echtheit, Richtigkeit, Vollständigkeit, Funktionstüchtigkeit oder Virenfreiheit aller von uns gelinkten Websites und in deren Umfang enthaltenen Dateien. Dies gilt auch besonders für die dort angebotenen Downloads und Scripte. Sollten Sie, als Betreiber einer von uns gelinkten Website, keine Verknüpfung zwischen unserer und Ihrer Internetpräsenz wünschen, so bitten wir Sie uns dies per E-Mail mitzuteilen. Der Link wird dann gelöscht.</p>
                 </article>
 
                 <!-- Elements -->
                 <article id="elements">
                     <h2 class="major">Elements</h2>
 
-                    <section>
-                        <h3 class="major">Text</h3>
-                        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                            This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                            This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-                        <hr />
-                        <h2>Heading Level 2</h2>
-                        <h3>Heading Level 3</h3>
-                        <h4>Heading Level 4</h4>
-                        <h5>Heading Level 5</h5>
-                        <h6>Heading Level 6</h6>
-                        <hr />
-                        <h4>Blockquote</h4>
-                        <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                        <h4>Preformatted</h4>
-                        <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-                    </section>
-
-                    <section>
-                        <h3 class="major">Lists</h3>
-
-                        <h4>Unordered</h4>
-                        <ul>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Sagittis adipiscing.</li>
-                            <li>Felis enim feugiat.</li>
-                        </ul>
-
-                        <h4>Alternate</h4>
-                        <ul class="alt">
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Sagittis adipiscing.</li>
-                            <li>Felis enim feugiat.</li>
-                        </ul>
-
-                        <h4>Ordered</h4>
-                        <ol>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Etiam vel felis viverra.</li>
-                            <li>Felis enim feugiat.</li>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Etiam vel felis lorem.</li>
-                            <li>Felis enim et feugiat.</li>
-                        </ol>
+                    <section>                  
                         <h4>Icons</h4>
                         <ul class="icons">
                             <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -168,7 +182,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                             <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
                             <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
                         </ul>
-
                         <h4>Actions</h4>
                         <ul class="actions">
                             <li><a href="#" class="button special">Default</a></li>
@@ -178,103 +191,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                             <li><a href="#" class="button special">Default</a></li>
                             <li><a href="#" class="button">Default</a></li>
                         </ul>
-                    </section>
-
-                    <section>
-                        <h3 class="major">Table</h3>
-                        <h4>Default</h4>
-                        <div class="table-wrapper">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-
-                        <h4>Alternate</h4>
-                        <div class="table-wrapper">
-                            <table class="alt">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                    </section>
-
+                    </section>          
                     <section>
                         <h3 class="major">Buttons</h3>
                         <ul class="actions">
@@ -294,7 +211,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                             <li><span class="button disabled">Disabled</span></li>
                         </ul>
                     </section>
-
                     <section>
                         <h3 class="major">Form</h3>
                         <form method="post" action="#">
@@ -304,36 +220,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                             </div>
                             <div class="field half">
                                 <label for="demo-email">Email</label>
-                                <input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-                            </div>
-                            <div class="field">
-                                <label for="demo-category">Category</label>
-                                <div class="select-wrapper">
-                                    <select name="demo-category" id="demo-category">
-                                        <option value="">-</option>
-                                        <option value="1">Manufacturing</option>
-                                        <option value="1">Shipping</option>
-                                        <option value="1">Administration</option>
-                                        <option value="1">Human Resources</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="field half first">
-                                <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                                <label for="demo-priority-low">Low</label>
-                            </div>
-                            <div class="field half">
-                                <input type="radio" id="demo-priority-high" name="demo-priority">
-                                <label for="demo-priority-high">High</label>
-                            </div>
-                            <div class="field half first">
-                                <input type="checkbox" id="demo-copy" name="demo-copy">
-                                <label for="demo-copy">Email me a copy</label>
-                            </div>
-                            <div class="field half">
-                                <input type="checkbox" id="demo-human" name="demo-human" checked>
-                                <label for="demo-human">Not a robot</label>
-                            </div>
+                                <input type="email" name="demo-email" id="demo-email" value="" placeholder="sarahresch54@gmail.com" />
+                            </div>                          
                             <div class="field">
                                 <label for="demo-message">Message</label>
                                 <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
@@ -344,14 +232,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                             </ul>
                         </form>
                     </section>
-
                 </article>
-
             </div>
 
             <!-- Footer -->
             <footer id="footer">
-                <p class="copyright"><a href="#impressum">Impressum</a>.</p>
+                <p class="copyright"><a href="#impressum">Impressum</a></p>
+
             </footer>
 
         </div>
